@@ -24,11 +24,17 @@ This project verifies the functionality of an APB slave including:
 | Parameter | Value |
 
 | Address Width | 32 bits |
+
 | Data Width | 64 bits |
+
 | Strobe Width | 8 bits |
+
 | Memory Size | 64 KB |
+
 | Word Size | 8 bytes |
+
 | Valid Address Range | `0x0000_0000 - 0x0000_FFFF` |
+
 | Highest Aligned Address | `0x0000_FFF8` |
 
 ## 🏗️ UVM Environment
@@ -96,9 +102,13 @@ Code coverage is collected using **Synopsys VCS / URG** and includes:
 
 APB-Slave-UVM-Verification/
 ├── rtl/
+
 ├── tb/
+
 ├── sim/
+
 ├── doc/
+
 └── README.md
 
 ## ✅ Verification Status
