@@ -22,6 +22,7 @@ This project verifies the functionality of an APB slave including:
 ## 🧩 APB Configuration
 
 | Parameter | Value |
+
 | Address Width | 32 bits |
 | Data Width | 64 bits |
 | Strobe Width | 8 bits |
